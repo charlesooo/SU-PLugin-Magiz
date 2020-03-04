@@ -1,0 +1,173 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: Times;
+	user-select: none;
+	cursor: default;
+}
+
+div {
+	height: 100%;
+}
+
+#trg {
+	position: fixed;
+	right: 6px;
+	bottom: 6px;
+	width: 27px;
+	height: 27px;
+	opacity: 0;
+	cursor: pointer;
+	z-index: 9;
+}
+
+#btn {
+	transition: all 0.3s ease;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	width: 15px;
+	height: 15px;
+	padding: 5px;
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	z-index: 8;
+	background: #fff;
+}
+
+#btn div {
+	transition: all 0.3s ease;
+	position: relative;
+	width: 100%;
+	height: 2px;
+	background: #000;
+}
+
+#btn div:before,
+#btn div:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #000;
+	position: absolute;
+	top: -5px;
+}
+
+#btn div:after {
+	top: 5px;
+}
+
+#trg:hover+div div {
+	transform: rotate(90deg);
+}
+
+#trg:hover+div div:before,
+#trg:hover+div div:after {
+	top: 0;
+	transform: rotate(90deg);
+}
+
+#trg:checked+div div {
+	transform: rotate(45deg);
+}
+
+#trg:checked+div div:before,
+#trg:checked+div div:after {
+	top: 0;
+	transform: rotate(90deg);
+}
+
+#trg:checked:hover+div div {
+	transform: rotate(225deg);
+}
+
+#trg:checked~#bar {
+	top: 0;
+}
+
+/* All about Sidebar */
+#bar {
+	transition: all 0.6s ease;
+	position: fixed;
+	top: -100%;
+	left: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#bar>div {
+	position: relative;
+	overflow: scroll;
+	display: flex;
+	flex-flow: row-reverse wrap-reverse;
+	align-content: flex-start;
+	background: #fff;
+	height: 76%;
+	widows: 100%;
+	padding: 9px;
+}
+
+#bar>div::-webkit-scrollbar {
+	display: none;
+}
+
+#bar>div>div {
+	position: relative;
+	flex: auto;
+	padding: 5px 10px;
+	height: 20px;
+	line-height: 23px;
+	margin: 2px;
+	text-align: center;
+	font-family: Arial;
+	transition: all 0.3s ease;
+}
+
+#bar>div>div:hover {
+	background: #fff;
+}
+
+.Skyscraper {
+	background: #e0e0e0;
+}
+
+.TierBuilding {
+	background: #f2f2f2;
+}
+
+.Apartment {
+	background: #e9e9e9;
+}
+
+.Villa {
+	background: #d9d9d9;
+}
+
+/* All about Pictures */
+#ttl {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	font-weight: bold;
+	text-align: center;
+}
+
+p {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	font-size: 14px;
+}
+
+h1 {
+	position: absolute;
+	top: 15%;
+	width: 100%;
+	font-size: 60px;
+}

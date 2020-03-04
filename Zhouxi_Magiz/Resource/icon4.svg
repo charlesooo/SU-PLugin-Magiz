@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.2" baseProfile="tiny" id="图层_1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="834px" height="892px"
+	 viewBox="0 0 834 892" xml:space="preserve">
+<g>
+	<polygon points="106.3,629 106.3,268.5 416.8,88.3 731.7,268.5 731.7,626.7 419,807 	"/>
+	<polygon fill="#FFFFFF" points="699.1,613.7 416.8,776.5 134.5,613.7 134.5,285.8 416.8,123 699.1,285.8 	"/>
+	<path fill="#DEFFFF" d="M699.1,285.8L416.9,448.6v327.8l282.2-162.8V285.8z"/>
+	<path fill="#83E6E6" d="M134.5,285.8v327.8l282.2,163V448.7L134.5,285.8z"/>
+</g>
+<polyline fill="none" stroke="#000000" stroke-width="60" stroke-miterlimit="10" points="416.8,551 416.7,448.7 541.6,376.7 
+	541.6,287.1 296.4,287.1 296.4,353.8 "/>
+<line fill="none" stroke="#000000" stroke-width="60" stroke-miterlimit="10" x1="416.7" y1="616" x2="416.7" y2="676.1"/>
+</svg>
