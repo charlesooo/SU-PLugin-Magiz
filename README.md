@@ -22,4 +22,4 @@ to create your own pattern. [Ruby Console Plus](https://github.com/Aerilius/sket
 ![demo](https://github.com/charlesooo/Magiz/blob/master/demo.png)   
 open Magiz_PTN_Editor.rb, there are two commands in the bottom.click the button in red circle,'save_PTN' will save all the data in red square into a mgz file.'refresh' will generate a building at origin point of the model.'refresh' has three parameters.the first represents certain data in red sqaure. the second represents the height of building, when the third is 0, no details will be generated.
 
-in the end, there are two functions you can write in pattern data. r1/r2/r3 randomly represents 1 or 0. lv(t,h) represents the height of building divide the net height of every floor. they need to be written in "".
+in the end, there are two functions you can write in pattern data. r1/r2/r3 randomly represents 1 or 0. lv(t,h) represents the height of building divides the net height of every floor. functions need to be written in "".
