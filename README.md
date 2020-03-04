@@ -1,5 +1,5 @@
 ## Magiz v0.4.0
-a SketchUp Extension can generate lots of building shapes in seconds
+a SketchUp Extension generates a lot of building shapes in seconds
 ![demo](https://github.com/charlesooo/Magiz/blob/master/Magiz_Demo.gif)
 
 ***
